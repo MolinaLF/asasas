@@ -1,0 +1,244 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  
+  
+  :root {
+    --padding-general: 0 1.5rem;
+  }
+  
+  
+  
+  .header {
+    width: 100%;
+  }
+  
+  
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.543);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-general);
+  }
+  
+
+
+form {
+    float: left;
+    margin: 2px 20px;
+    border: 5px double rgb(150, 130, 101);
+    border-radius: 5px;
+    background-color: rgba(225, 230, 253, 0.966);
+    position: relative;
+    left: 50rem;
+    position: relative;
+    top: -15rem;
+    padding: 2px 80px 2px 1px;
+}
+
+.title_main {
+    text-align: center;
+    position: relative;
+    bottom: -3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(1, 3, 3);
+    text-decoration: underline;
+    word-spacing: 0.25em;
+
+
+}
+
+label {
+    margin: 5px;
+    cursor: none;
+}
+
+.text_formulario {
+    margin: 20px;
+}
+
+span {
+    text-transform: capitalize;
+    font-size: medium;
+    font-style: oblique;
+}
+
+input {
+    border: 2px double blueviolet;
+    border-radius: 10px;
+}
+
+.comentario {
+    height: 300px;
+    width: 250px;
+    position: relative;
+    bottom: -1rem;
+    right: 2rem;
+}
+
+.dia {
+    position: relative;
+    left: 36px;
+}
+
+.re_comentario {
+    position: relative;
+    top: -9.5rem;
+}
+
+.buton-edit {
+    padding: 2px 50px;
+    position: relative;
+    left: 7rem;
+    margin: 5px;
+    background-color: rgb(158, 239, 235);
+}
+
+/*--------------------------*/
+
+
+
+/*-------logo-------------*/
+
+.imagenes_main {
+    width: 30%;
+    height: 350px;
+    position: relative;
+    bottom: -13rem;
+    left: 13rem;
+    border-radius: 5em / 5em;
+    animation: movimiento 2.5s linear infinite;
+}
+
+@keyframes movimiento {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*--------------------------*/
+
+
+
+/*carrusel con imagenes*/
+
+
+
+/*prueba*/
+.footer_reparador {
+    width: 100%;
+    position: relative;
+    top: 29rem;
+    padding: var(--padding-general);
+    background-color: rgb(80, 80, 70);
+}
+
+.footer__item1 {
+    position: relative;
+    left: -15rem;
+
+}
+
+.icono_1 {
+    position: relative;
+    right: -1rem;
+}
+
+.reparador_title {
+    position: relative;
+    top: 0rem;
+    position: relative;
+    left: -4rem;
+    color: blueviolet;
+}
+
+.completa_reparador2 {
+    position: relative;
+    right: -25px;
+}
+
+
+
+
+/*contenedor de  imagens*/
+.contenedor_section {
+    margin: 10px 20px 10px;
+    position: relative;
+    bottom: -27rem;
+    left: -15rem;
+}
+
+/*---------------------*/
+
+
+/* contenedor de todas las imagenes*/
+
+.contenedor-pasteles {
+    border: 2px dotted blueviolet;
+    border-radius: 25px;
+}
+
+/*---------------------*/
+
+
+
+
+/*contenedor de cada imagenes */
+#img-pasteles1 {
+    transition: transform .5s;
+}
+
+#img-pasteles1:hover {
+    transform: scale(1.1);
+}
+
+#img-pasteles2 {
+    transition: transform .5s;
+}
+
+#img-pasteles2:hover {
+    transform: scale(1.1);
+}
+
+#img-pasteles3 {
+    transition: transform .5s;
+}
+
+#img-pasteles3:hover {
+    transform: scale(1.1);
+}
+
+#img-pasteles4 {
+    transition: transform .5s;
+}
+
+#img-pasteles4:hover {
+    transform: scale(1.1);
+}
+
+#img-pasteles5 {
+    transition: transform .5s;
+}
+
+#img-pasteles5:hover {
+    transform: scale(1.1);
+}
+
+.caja-banner {
+    margin: 10px 10px;
+}
+
+/*---------------------*/

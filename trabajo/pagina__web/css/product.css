@@ -1,0 +1,432 @@
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    position: relative;
+    background-image: url(../imagenes/fondos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  
+  
+  :root {
+    --padding-general: 0 1.5rem;
+  }
+  
+  
+  
+  .header {
+    width: 100%;
+  }
+  
+  
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.543);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-general);
+  }
+  
+
+header .logo {
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+
+header h2 {
+    display: contents;
+}
+
+.section_tortas_title {
+    margin-left: -1%;
+    position: absolute;
+    bottom: -5px;
+}
+
+img {
+    width: 200px;
+    height: 100%;
+}
+
+
+.section_main {
+    margin: 20px 240px;
+    position: relative;
+    top: -15rem;
+}
+
+/*transition:transform .5s;   
+}
+
+img:hover{
+    transform:scale(1.1);
+}*/
+
+
+
+
+.section_tortas_product {
+    float: left;
+    margin: 14px;
+    border: 5px double rgb(182, 122, 122);
+    padding: 10px 12px;
+    position: relative;
+    right: -2rem;
+    transition: transform .5s;
+}
+
+.section_tortas_product:hover {
+    transform: scale(1.1);
+}
+
+
+
+.section_tortas {
+    position: relative;
+    bottom: -2rem;
+    margin: 5px 100px;
+
+}
+
+
+
+
+.section_tortas_quinceañera {
+    position: relative;
+    bottom: -4rem;
+    margin: 12px;
+    float: left;
+    position: relative;
+    right: 6.5rem;
+}
+
+.section_tortas_product_2 {
+    float: left;
+    margin: 12px;
+    margin-top: 1%;
+    box-sizing: border-box;
+    position: relative;
+    right: -17%;
+    border: 5px double rgb(182, 122, 122);
+    ;
+    padding: 10px 12px;
+    transition: transform .5s;
+}
+
+.section_tortas_product_2:hover {
+    transform: scale(1.1);
+}
+
+.section_tortas_title_reparador_3 {
+    position: relative;
+    right: -7%;
+}
+
+.section_tortas_profesionales {
+    margin: 12px;
+    float: left;
+    position: relative;
+    bottom: -7rem;
+    margin-left: -23px;
+}
+
+.section_tortas_product_3 {
+    margin: 12px;
+    float: left;
+    border: 5px double rgb(182, 122, 122);
+    padding: 10px 12px;
+    position: relative;
+    right: -7%;
+    transition: transform .5s;
+}
+
+.section_tortas_product_3:hover {
+    transform: scale(1.1);
+}
+
+.section_tortas_promocion {
+    margin: 200px -123px;
+    float: left;
+    position: relative;
+    top: -3rem;
+
+}
+
+.section_tortas_product_4 {
+    float: left;
+    margin: 13px;
+    position: relative;
+    left: 9.5rem;
+    border: 5px double rgb(182, 122, 122);
+    padding: 10px 12px;
+    transition: transform .5s;
+}
+
+.section_tortas_product_4:hover {
+    transform: scale(1.1);
+}
+
+.section_tortas_title_reparador_4 {
+    position: relative;
+    top: 5px;
+}
+
+.section_tortas_title_reparador_5 {
+    position: relative;
+    left: 10rem;
+}
+
+
+.section_tortas_titles {
+    margin-left: 10.2rem;
+}
+
+.section_tortas_titles_1 {
+    position: relative;
+    right: -9rem;
+}
+
+.section_tortas_titles_2 {
+    position: relative;
+    right: -3rem;
+}
+
+.section_tortas_titles_3 {
+    position: relative;
+    right: -4rem;
+}
+
+h3 {
+    display: block;
+    font-family: cursive;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 22ch;
+
+
+    animation: typing 5s steps(12),
+        blink .7s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+}
+
+@keyframes blink {
+
+    60% {
+        border-color: transparent;
+    }
+}
+
+.inside {
+    z-index: 9;
+    background: #ddccd8;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 0rem;
+    right: -1px;
+    border-radius: 0px 0px 200px 200px;
+    transition: all 0.5s, border-radius 2s, top 1s;
+    overflow: hidden;
+}
+
+.inside .icon {
+    position: absolute;
+    right: 3px;
+    top: 1px;
+    color: rgba(23, 17, 17, 0.866);
+    opacity: 1;
+}
+
+.inside:hover {
+    width: 100%;
+    margin: 8px 1px;
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    height: 80%;
+}
+
+.inside:hover .icon {
+    opacity: 0;
+    right: 15px;
+    top: 15px;
+}
+
+.inside:hover .contents {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+}
+
+.inside .contents {
+    padding: 5%;
+    opacity: 0;
+    transform: scale(0.5);
+    transform: translateY(-200%);
+    transition: opacity 0.2s, transform 0.8s;
+}
+
+.buy {
+    float: right;
+    height: 10%;
+    background: hsl(0, 14%, 95%);
+    transition: 0.5s;
+    border-radius: solid rgb(222, 79, 79);
+    position: relative;
+    bottom: -0.4rem;
+}
+
+.buy i {
+    font-size: 25px;
+    padding: 5px;
+    color: #1d1c24;
+    transition: transform 0.5s;
+}
+
+.buy:hover i {
+    transform: rotate(360deg);
+}
+
+.pastelero {
+    height: 300px;
+    width: 20%;
+    position: relative;
+    right: -75rem;
+    position: relative;
+    bottom: -1rem;
+    animation: movimiento 2.5s linear infinite;
+}
+
+@keyframes movimiento {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*rmover*/
+.remover {
+    position: relative;
+    left: 1rem;
+}
+
+.remove_2 {
+    position: relative;
+    left: 8rem;
+}
+
+.remove_3 {
+    position: relative;
+    left: 16.2rem;
+}
+
+h3::before {
+    content: "🎂 "
+}
+
+.p_edit {
+    font-style: oblique;
+    margin: 5px 10px;
+    font-size: 15px;
+}
+
+.p_edit2 {
+    margin: -9px 2px;
+    position: relative;
+    left: 4rem;
+    bottom: -20px;
+    padding: 2px 7px;
+    margin-right: 120px;
+    border-radius: 20px;
+    border: 2px double rgb(210, 47, 47);
+    background-color: rgb(223, 237, 237);
+}
+
+.p_edit {
+    position: relative;
+    left: 3rem;
+}
+
+/*footer*/
+
+.footer_reparador {
+    width: 100%;
+    position: relative;
+    top: 29rem;
+    padding: var(--padding-general);
+    background-color: rgb(80, 80, 70);
+}
+
+.footer__item1 {
+    position: relative;
+    left: -15rem;
+
+}
+
+.icono_1 {
+    position: relative;
+    right: -1rem;
+}
+
+
+/*footer editando de nuevo*/
+
+.footer_content {
+    position: relative;
+    bottom: -164rem;
+    border: 2px double #1d1c24;
+    padding-top: 3rem;
+    background-color: rgb(80, 80, 70);
+}
+
+
+.footer_content_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    left: -61rem;
+    top: -3rem;
+}
+
+.footer__item2 {
+    margin: 62px;
+}
+
+a {
+    color: #ddccd8;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.caja_pago {
+    position: relative;
+    left: -28rem;
+    bottom: 2rem;
+}
+a{
+    color: #1d1c24;
+}
