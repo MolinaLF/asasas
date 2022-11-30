@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/virus/style1.1.css">
+    <link rel="stylesheet" href="/css/delivery.css">
+    <!--java script nuevo -->
+    <script src="/js/carusel.js"></script>
+
+    <title>Panadería Misikitanta</title>
+
+
+<body>
+   
+
+
+        <header class="header">
+            <div class="header__logo">
+                <img class="header__img" src="/imagenes/logos/logo.png">
+            </div>
+            <h1 class="reparador_title">Panadería Misikitanta</h1>
+            <i id="btn-menu" class="fa-solid fa-bars"></i>
+
+        </header>
+
+        <nav class="nav">
+            <ul class="nav__menu">
+
+                <li class="nav__item"><a href="/index.html">INICIO</a>
+                    <i id="btn-close" class="fa-solid fa-xmark"></i>
+                  </li>
+                  <li class="nav__item"><a href="/pages/productos.html">Productos</a></li>
+                  <li class="nav__item"><a href="/pages/nosotros.html">Nosotros</a></li>
+                  <li class="nav__item"><a href="/pages/pedidos.html">Pedidos
+                      Personalizados</a></li> 
+                  <li class="nav__item"><a href="/pages/delivery.html">Delivery</a></li>
+            </ul>
+        </nav>
+
+        <h1 class="title_main">Contactanos</h1>
+        <div>
+            <img src="/imagenes/logos/logo.png" alt="bono" class="imagenes_main">
+        </div>
+        <!--formulario-->
+        <form action="">
+            <div class="text_formulario">
+                <label for="#">
+                    <span>nombre:</span>
+                    <input type="text" id="text_nombre" placeholder="completa" name="namber" maxlength="10"
+                        autocomplete="name" required>
+                </label>
+            </div>
+
+            <div class="text_formulario">
+                <label for="apellido">
+                    <span>apellido:</span>
+                    <input type="text" id="apellido" name="apellido" placeholder="completa" autocomplete="family-name"
+                        maxlength="8" required>
+                </label>
+            </div>
+
+            <div class="text_formulario">
+                <label for="number">
+                    <span>numero:</span>
+                    <input type="tel" id="number" name="number" placeholder="completa" autocomplete="cc-number"
+                        maxlength="10" required>
+                </label>
+            </div>
+            <div class="text_formulario">
+                <label for="dia">
+                    <span>Dia:</span>
+                    <input type="date" id="dia" name="dia" placeholder="completa" autocomplete="date" required
+                        class="dia">
+                </label>
+            </div>
+            <div class="text_formulario">
+                <label for="paise">
+                    <span>pais :</span>
+                    <input list="paises" autocomplete="country" placeholder="completa" name="paises" required
+                        class="completa_reparador2">
+                    <datalist id="paises">
+                        <option value="peru"></option>
+                        <option value="argentna"></option>
+                        <option value="chile"></option>
+                        <option value="otros"></option>
+                    </datalist>
+                </label>
+            </div>
+
+            <div class="text_formulario">
+                <label for="comentario">
+                    <span class="re_comentario">comentario:</span>
+                    <input type="text" id="comentario" name="comentario" autocomplete="text" required
+                        class="comentario">
+                </label>
+            </div>
+
+            <div class="text_formulario">
+                <label>
+                    <input type="submit" class="buton-edit">
+                </label>
+            </div>
+        </form>
+
+
+
+        <div class="contenedor_section">
+            <h2 style="text-align:center;color: brown;">Lo mas vendido </h2>
+
+            <div class="contenedor-pasteles">
+                <div class="caja-banner">
+                    <img id="img-pasteles1">
+                </div>
+                <div class="caja-banner">
+                    <img id="img-pasteles2">
+                </div>
+                <div class="caja-banner">
+                    <img id="img-pasteles3">
+                </div>
+                <div class="caja-banner">
+                    <img id="img-pasteles4">
+                </div>
+                <div class="caja-banner">
+                    <img id="img-pasteles5">
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer_reparador">
+            <ul class="footer__menu">
+                <li class="footer__item1"><a href="#">Relgamento de nomras</a></li>
+                <li class="footer__item1"><a href="#">Contactenos</a></li>
+                <li class="footer__item1"><a href="#">Pedidos</a></li>
+                <li class="footer__item1"><a href="#">Locales</a></li>
+                <li class="footer__item1"><a href="#">¿Qué hacemos?</a></li>
+                <li class="footer__item1"><a href="#">Nuestra Empresa</a></li>
+            </ul>
+    
+            <div class="caja_icono">
+    
+                <h2>Metodos de Pagos</h2>
+                <section class="icono">
+                    <img src="../imagenes/logos/icono.png" class="img">
+                </section>
+            </div>
+        </footer>
+    
+
+</body>
+
+</html>
